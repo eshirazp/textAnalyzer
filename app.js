@@ -48,7 +48,7 @@ function textAnalyze() {
     var textArr = textToArr($('textarea').val());
     $('.wordCount').text(wordCount(textArr));
     $('.uniqueWordCount').text(uniqueCount(textArr));
-    $('.averageWordLength').text(averageCount(textArr) + "characters");
+    $('.averageWordLength').text(averageCount(textArr) + " characters");
 
   });
 }
